@@ -1,6 +1,13 @@
 [package]
 name = "koboldsquest4-rust"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
 
 [dependencies]
+###sdl2 = "0.38.0"
+###sdl2 = "0.25.0"
+###sdl2_image = "0.25.0"
+[dependencies.sdl2]
+version = "0.38.0"
+default-features = false
+features = ["image"]
